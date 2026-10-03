@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brean Patel | Leadership &amp; Real Estate</title>
+<meta name="description" content="Portfolio of a leadership and management student concentrating in real estate.">
+<style>
+  :root {
+    --navy: #14263d;
+    --navy-2: #1d3552;
+    --brass: #b08a4a;
+    --paper: #f6f7f9;
+    --card: #ffffff;
+    --ink: #1b2430;
+    --muted: #5a6675;
+    --line: #dde2e8;
+    --serif: Georgia, "Times New Roman", serif;
+    --sans: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; scroll-padding-top: 4rem; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--sans); line-height: 1.65; }
+  a { color: var(--navy-2); }
+  a:focus-visible { outline: 3px solid var(--brass); outline-offset: 3px; }
+  .wrap { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; }
+
+  nav { position: sticky; top: 0; z-index: 10; background: var(--navy); border-bottom: 1px solid #ffffff1f; }
+  nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 3.4rem; }
+  nav .brand { color: #fff; font-family: var(--serif); font-size: 1.05rem; text-decoration: none; }
+  nav ul { display: flex; gap: 1.6rem; list-style: none; margin: 0; padding: 0; }
+  nav ul a { color: #c9d3df; text-decoration: none; font-size: .95rem; }
+  nav ul a:hover { color: #fff; }
+
+  header.hero {
+    background-color: var(--navy);
+    background-image:
+      linear-gradient(#ffffff0d 1px, transparent 1px),
+      linear-gradient(90deg, #ffffff0d 1px, transparent 1px);
+    background-size: 36px 36px;
+    color: #fff; padding: 5.5rem 0 5rem;
+    border-bottom: 4px solid var(--brass);
+  }
+  .hero h1 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.4rem, 6vw, 4rem); line-height: 1.08; margin: 0 0 1.4rem; letter-spacing: -.01em; }
+  .hero .statement { font-family: var(--serif); font-size: clamp(1.15rem, 2.3vw, 1.45rem); line-height: 1.55; max-width: 44rem; margin: 0 0 2rem; color: #dbe3ed; }
+  .hero .meta { display: flex; flex-wrap: wrap; gap: .6rem 2rem; font-size: .95rem; color: #aebccc; margin: 0; padding: 0; list-style: none; }
+  .hero .meta strong { color: #fff; font-weight: 600; }
+
+  section { padding: 4rem 0; }
+  section + section { border-top: 1px solid var(--line); }
+  .section-head { display: grid; grid-template-columns: 12rem 1fr; gap: 2rem; }
+  h2 { font-family: var(--serif); font-weight: 400; font-size: 1.7rem; margin: 0; color: var(--navy); padding-top: .15rem; border-top: 3px solid var(--brass); width: 6rem; padding-top: .8rem; }
+  @media (max-width: 760px) { .section-head { grid-template-columns: 1fr; gap: 1.2rem; } }
+
+  .entry { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--navy); border-radius: 4px; padding: 1.4rem 1.6rem; margin-bottom: 1.1rem; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry h3 { font-family: var(--serif); font-weight: 700; font-size: 1.15rem; margin: 0 0 .15rem; color: var(--navy); }
+  .entry .role { font-size: .9rem; color: var(--brass); font-weight: 600; margin: 0 0 .6rem; }
+  .entry p { margin: 0; color: var(--muted); }
+  .entry .links { margin-top: .8rem; display: flex; gap: 1.2rem; font-size: .95rem; }
+
+  .skill-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1.1rem; }
+  .skill-box { background: var(--card); border: 1px solid var(--line); border-radius: 4px; padding: 1.3rem 1.5rem; }
+  .skill-box h3 { font-family: var(--serif); font-size: 1.05rem; margin: 0 0 .8rem; color: var(--navy); }
+  .skill-box ul { margin: 0; padding: 0; list-style: none; }
+  .skill-box li { padding: .4rem 0; border-top: 1px solid var(--line); font-size: .97rem; }
+  .skill-box li:first-child { border-top: 0; }
+
+
+  footer { background: var(--navy); color: #c9d3df; padding: 2.5rem 0; font-size: .95rem; }
+  footer a { color: #fff; }
+  footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 1rem; }
+</style>
+</head>
+<body>
+
+<nav aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top">Brean Patel</a>
+    <ul>
+      <li><a href="#background">Background</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Brean Patel</h1>
+    <p class="statement">I am a leadership and management student concentrating in real estate, with hands-on experience managing construction projects, who turns complex developments into on-time, on-budget results.</p>
+    <ul class="meta">
+      <li><strong>Major</strong> Leadership &amp; Management</li>
+      <li><strong>Concentration</strong> Real Estate</li>
+      <li><strong>Experience</strong> Construction project management</li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section id="background">
+    <div class="wrap section-head">
+      <h2>Background</h2>
+      <div>
+        <article class="entry">
+          <h3>Construction Project Manager</h3>
+          <p class="role">Family Real Estate Company, India</p>
+          <p>Managed residential construction projects from planning through handover, coordinating contractors, suppliers and site teams, tracking budgets and schedules, and keeping work aligned with client expectations.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap section-head">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-box">
+          <h3>Real estate and management</h3>
+          <ul>
+            <li>Construction project management</li>
+            <li>Budgeting and cost control</li>
+            <li>Contractor and vendor coordination</li>
+            <li>Property market analysis</li>
+            <li>Team leadership</li>
+          </ul>
+        </div>
+        <div class="skill-box">
+          <h3>Professional</h3>
+          <ul>
+            <li>Negotiation</li>
+            <li>Written and verbal communication</li>
+            <li>Scheduling and planning</li>
+            <li>Excel</li>
+            <li>Cross-cultural collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap section-head">
+      <h2>Projects</h2>
+      <div>
+        <article class="entry">
+          <h3>Mixed-Use Development Feasibility Study</h3>
+          <p class="role">Academic team project</p>
+          <p>Led a four-person team in evaluating a proposed mixed-use site, building a financial model covering land cost, construction budget and projected rental income. Our recommendation included a phased build plan that lowered upfront capital needs.</p>
+        </article>
+        <article class="entry">
+          <h3>Residential Construction Schedule and Budget Optimization</h3>
+          <p class="role">Professional project, India</p>
+          <p>Rebuilt the timeline and cost tracking for a multi-unit residential project, sequencing trades to reduce idle time and flagging budget overruns early. The new plan shortened the projected schedule and improved cost visibility for stakeholders.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <span>Brean Patel</span>
+    <span>
+      <a href="mailto:you@example.com">you@example.com</a> &nbsp;|&nbsp;
+      <a href="https://www.linkedin.com/in/your-username">LinkedIn</a> &nbsp;|&nbsp;
+      <a href="https://github.com/your-username">GitHub</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
